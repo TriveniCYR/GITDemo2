@@ -26,6 +26,7 @@ namespace Services
         /// <returns>Response from API</returns>
         [OperationContract]
         [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.WrappedRequest, RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
-        string TestPOSTAPI();
+        string TestPOSTAPI();  
+        ///
     }
 }
