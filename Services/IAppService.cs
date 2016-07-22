@@ -12,6 +12,7 @@ namespace Services
     [ServiceContract]
     public interface IAppService
     {
+        //
         /// <summary>
         /// Making Test for GET method is working or not
         /// </summary>
